@@ -1,0 +1,36 @@
+{
+  "name": "cra-template-bootstrap-imamaad",
+  "author": "mohammad hussin rezazadeh",
+  "email": "imamaad.ir@gmail.com",
+  "license": "IMAMAAD",
+  "private": false,
+
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "pwa",
+    "redux",
+    "redux-toolkit",
+    "redux-saga",
+    "axios",
+    "react-bootstrap",
+    "workbox",
+    "service-worker"
+  ],
+  "description": "A progressive web app template for Create React App and TypeScript, using Workbox.",
+  "main": "template.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imamaad/cra-template-bootstrap-imamaad",
+    "directory": "packages/cra-template-bootstrap-imamaad"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
