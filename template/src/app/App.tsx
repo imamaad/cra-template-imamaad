@@ -1,13 +1,11 @@
 import React from 'react';
-import {BaseRoutes} from "routes";
+import {ManageRoutes} from "routes";
 
-// TODO : Import Base Styles Project
+import "style/app.scss";
 
 export const App = () => {
 
     return (
-        <>
-            <BaseRoutes/>
-        </>
+        <ManageRoutes/>
     );
 }

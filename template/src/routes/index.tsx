@@ -1,1 +1,1 @@
-export {BaseRoutes} from "./BaseRoutes";
+export {ManageRoutes} from "./ManageRoutes";
