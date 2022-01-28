@@ -4,4 +4,6 @@ To use this template add `--template template-bootstrap-imamaad` when creating a
 
 ```sh
 npx create-react-app my-app --template template-bootstrap-imamaad
+OR
+yarn create react-app my-app --template cra-template-bootstrap-imamaad
 ```
