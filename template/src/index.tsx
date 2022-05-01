@@ -11,7 +11,9 @@ import {App} from "app";
 /*Set Axios Clients*/
 setupClients(store);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(
+    document.getElementById('root') as HTMLElement
+);
 
 root.render(
     <React.StrictMode>
@@ -22,8 +24,7 @@ root.render(
                 </BrowserRouter>
             </PersistGate>
         </Provider>
-    </React.StrictMode>,
-    document.getElementById('root')
+    </React.StrictMode>
 );
 
 // If you want your app to work offline and load faster, you can change
