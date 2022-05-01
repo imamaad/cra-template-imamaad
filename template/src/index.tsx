@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import * as serviceWorkerRegistration from 'serviceWorkerRegistration';
 import {setupClients} from "app/axiosClinets";
 import {persistor, store} from "app/store";
@@ -11,7 +11,9 @@ import {App} from "app";
 /*Set Axios Clients*/
 setupClients(store);
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(
     <React.StrictMode>
         <Provider store={store}>
             <PersistGate persistor={persistor}>
