@@ -6,6 +6,7 @@ export const ManageRoutes = () => {
     return (
         <Routes>
             <Route index element={<DashboardPage/>}/>
+            <Route index element={<AboutMePage/>}/>
         </Routes>
     );
 }

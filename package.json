@@ -20,7 +20,7 @@
     "service-worker",
     "typescript"
   ],
-  "description": "A progressive web app template for Create React App and TypeScript, using Workbox.",
+  "description": "A progressive web app template for Create React App, TypeScript, redux-toolkit, react-bootstrap, pwa and redux-saga, using Workbox.",
   "main": "template.json",
   "repository": {
     "type": "git",
