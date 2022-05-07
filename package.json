@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": false,
 
-  "version": "2.0.3",
+  "version": "2.0.4",
   "keywords": [
     "react",
     "create-react-app",
@@ -17,7 +17,8 @@
     "axios",
     "react-bootstrap",
     "workbox",
-    "service-worker"
+    "service-worker",
+    "typescript"
   ],
   "description": "A progressive web app template for Create React App and TypeScript, using Workbox.",
   "main": "template.json",
