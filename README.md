@@ -11,6 +11,4 @@ OR
 yarn create react-app my-app --template cra-template-bootstrap-imamaad
 ```
 
-Buy Me a Coffee makes supporting fun and easy `TWnx3KnwynTuE1FHgsJq1TVuja442JAVUN` :
-
-![image qr-code-wallet-usdt-trc20](/repository/images/qr-wallet-usdt-trc20.jpeg)
+<a href="https://www.buymeacoffee.com/imamaadirQ" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
